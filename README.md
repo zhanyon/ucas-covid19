@@ -11,6 +11,7 @@
 
 
 
+.
 # 方法一： 使用自己的服务器运行
 ## 用法
 1. 点击右上角`star` :)
@@ -21,6 +22,7 @@
 ```
 30 8 * * * /usr/bin/python3  /root/ucas-covid19/sub.py >>/tmp/yqfk.log
 ```
+
 
 
 ## 建议
@@ -34,6 +36,10 @@
 TZ=Asia/Shanghai
 ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ```
+
+-
+
+
 
 
 
